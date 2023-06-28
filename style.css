@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .book {
   display: flex;
   justify-content: center;
@@ -12,8 +17,62 @@
   height: 560px;
   padding: 40px;
   background-image: url("./images/background.png");
+  text-align: justify;
+}
+
+h1,
+h4 {
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 0.9rem;
+  text-indent: 10px;
+  margin: 0;
 }
 
 .page3 {
   text-align: center;
+
+  & p {
+    padding-top: 25px;
+  }
+
+  & h1 {
+    padding: 85px 0 20px;
+  }
+
+  & .city {
+    padding-top: 220px;
+  }
+}
+
+.page4 {
+  line-height: 0.95;
+  padding-top: 90px;
+
+  & .italic {
+    font-style: italic;
+    font-size: 1.0rem;
+  }
+
+  & .last {
+    font-size: 0.8rem;
+    padding-top: 10px;
+    font-weight: 900;
+  }
+}
+
+.page5 {
+  padding-top: 90px;
+  line-height: 0.95;
+
+  & h4 {
+    line-height: 1.5;
+  }
+
+  & p {
+    padding: 9px 0 0;
+  }
 }
