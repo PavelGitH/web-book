@@ -11,25 +11,61 @@
   height: 100vh;
 }
 
-.leftPage,
-.rightPage {
+.prev,
+.next {
+  width: 32px;
+  height: 32px;
+  background-image: url("./images/button-32.png");
+  opacity: 0.4;
+  transition: .2s;
+}
+
+.prev {
+  margin-right: 22px;
+  transform: rotate(180deg);
+}
+
+.next {
+  margin-left: 22px;
+}
+
+.prev:hover,
+.next:hover {
+  opacity: .8;
+}
+
+.prev:active,
+.next:active {
+  opacity: 1;
+}
+
+.page {
   width: 440px;
   height: 560px;
   padding: 40px;
   background-image: url("./images/background.png");
+  background-size: 440px 560px;
   text-align: justify;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 #efead4;
 }
 
 h1,
 h4 {
-  margin: 0;
   text-align: center;
 }
 
 p {
   font-size: 0.9rem;
   text-indent: 10px;
-  margin: 0;
+}
+
+.page0 {
+  display: none;
+}
+
+.page1 {
+  background-image: url("./images/izh_planeta3.jpg");
 }
 
 .page3 {
@@ -75,4 +111,18 @@ p {
   & p {
     padding: 9px 0 0;
   }
+}
+
+.displayNone {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  /* h2 {
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  } */
 }
