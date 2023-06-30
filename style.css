@@ -4,6 +4,29 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+.header {
+  display: flex;
+  justify-content: right;
+  background-color: rgb(33, 33, 33);
+}
+
+.menu {
+  width: 40px;
+  height: 40px;
+  background-image: url("./images/menu-40.png");
+  margin: 10px;
+  opacity: 0.4;
+  transition: .2s;
+}
+
+.menu:hover {
+  opacity: .8;
+}
+
+.menu:active {
+  opacity: 1;
+}
+
 .book {
   display: flex;
   justify-content: center;
