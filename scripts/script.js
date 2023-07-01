@@ -2,7 +2,7 @@ const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
 let pages = document.querySelectorAll(".page");
 let activePageArr = [0, 1];
-let width1000 = window.matchMedia("(max-width: 1000px)");
+let width700 = window.matchMedia("(max-width: 700px)");
 
 function pagesDisplayNone() {
   pages.forEach((element) => element.classList.add("displayNone"));
@@ -56,8 +56,8 @@ function myFunction(x) {
   }
 }
 
-myFunction(width1000);
-// width1000.addListener(myFunction);
+myFunction(width700);
+width700.addListener(myFunction);
 
 prev.addEventListener("click", () => {
   prevPush();

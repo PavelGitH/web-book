@@ -160,14 +160,30 @@ p {
   }
 }
 
+.page6 {
+  padding-top: 9vw;
+
+}
+
+.page7 {
+
+}
+
+.page8 {
+
+}
+
+.page9 {
+
+}
 .displayNone {
   display: none;
 }
 
-/* @media (max-width: 1000px) {
+@media (max-width: 700px) {
   .page {
-    width: 80vw;
-    height: 112vw;
+    width: 72vw;
+    height: 100vw;
     background-size: 80vw 112vw;
   }
-} */
+}
