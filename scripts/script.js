@@ -57,7 +57,7 @@ function myFunction(x) {
 }
 
 myFunction(width1000);
-width1000.addListener(myFunction);
+// width1000.addListener(myFunction);
 
 prev.addEventListener("click", () => {
   prevPush();

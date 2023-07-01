@@ -4,17 +4,21 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-.header {
+.header,
+.footer {
+  height: 10vh;
+  /*need remove*/
   display: flex;
   justify-content: right;
   background-color: rgb(33, 33, 33);
 }
 
 .menu {
-  width: 40px;
-  height: 40px;
+  width: 5vh;
+  height: 5vh;
+  margin: 2vh;
   background-image: url("./images/menu-40.png");
-  margin: 10px;
+  background-size: 5vh 5vh;
   opacity: 0.4;
   transition: .2s;
 }
@@ -32,25 +36,25 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(33, 33, 33);
-  height: 100vh;
 }
 
 .prev,
 .next {
-  width: 32px;
-  height: 32px;
+  width: 3vh;
+  height: 3vh;
   background-image: url("./images/button-32.png");
+  background-size: 3vh 3vh;
   opacity: 0.4;
   transition: .2s;
 }
 
 .prev {
-  margin-right: 22px;
+  margin-right: 2vh;
   transform: rotate(180deg);
 }
 
 .next {
-  margin-left: 22px;
+  margin-left: 2vh;
 }
 
 .prev:hover,
@@ -64,14 +68,20 @@
 }
 
 .page {
-  width: 440px;
-  height: 560px;
-  padding: 40px;
+  width: 41vw;
+  height: 54.5vw;
+  padding: 4vw;
   background-image: url("./images/background.png");
-  background-size: 440px 560px;
+  background-size: 41vw 54.5vw;
   text-align: justify;
   border-radius: 10px;
   box-shadow: 0 0 5px 0 #efead4;
+}
+
+h1 {
+  font-size: 2.8vw;
+  letter-spacing: 0.5vw;
+  padding: 8vw 0 2vw;
 }
 
 h1,
@@ -80,7 +90,7 @@ h4 {
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 1.33vw;
   text-indent: 10px;
 }
 
@@ -96,15 +106,17 @@ p {
   text-align: center;
 
   & p {
-    padding-top: 25px;
+    font-size: 1.33vw;
+    text-indent: 0;
+    padding-top: 1.3vw;
   }
 
-  & h1 {
-    padding: 85px 0 20px;
+  & h4 {
+    font-size: 1.7vw;
   }
 
   & .city {
-    padding-top: 220px;
+    padding-top: 20vw;
   }
 }
 
@@ -141,12 +153,10 @@ p {
   display: none;
 }
 
-@media (max-width: 1000px) {
-  /* h2 {
-    font-size: 2.5rem;
-    line-height: 3.2rem;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-  } */
-}
+/* @media (max-width: 1000px) {
+  .page {
+    width: 80vw;
+    height: 112vw;
+    background-size: 80vw 112vw;
+  }
+} */
