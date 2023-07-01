@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
+  hyphens: auto;
 }
 
 .header,
@@ -70,7 +71,7 @@
 .page {
   width: 41vw;
   height: 54.5vw;
-  padding: 4vw;
+  padding: 4.5vw;
   background-image: url("./images/background.png");
   background-size: 41vw 54.5vw;
   text-align: justify;
@@ -84,14 +85,20 @@ h1 {
   padding: 8vw 0 2vw;
 }
 
+h4 {
+  font-size: 1.45vw;
+  line-height: 1.5;
+}
+
 h1,
 h4 {
   text-align: center;
 }
 
 p {
-  font-size: 1.33vw;
-  text-indent: 10px;
+  font-size: 1.25vw;
+  text-indent: 1.5vw;
+  word-spacing: 0.4vw;
 }
 
 .page0 {
@@ -106,9 +113,9 @@ p {
   text-align: center;
 
   & p {
-    font-size: 1.33vw;
+    font-size: 1.25vw;
     text-indent: 0;
-    padding-top: 1.3vw;
+    padding-top: 1vw;
   }
 
   & h4 {
@@ -121,31 +128,35 @@ p {
 }
 
 .page4 {
-  line-height: 0.95;
-  padding-top: 90px;
+  line-height: 1;
+  padding-top: 9vw;
 
   & .italic {
     font-style: italic;
-    font-size: 1.0rem;
+    font-size: 1.5vw;
+    word-spacing: normal;
   }
 
   & .last {
-    font-size: 0.8rem;
-    padding-top: 10px;
+    font-size: 1.2vw;
+    padding-top: 1vw;
     font-weight: 900;
+    word-spacing: normal;
   }
 }
 
 .page5 {
-  padding-top: 90px;
+  padding-top: 9vw;
   line-height: 0.95;
 
-  & h4 {
-    line-height: 1.5;
+  & p {
+    padding: 1vw 0 0;
   }
 
-  & p {
-    padding: 9px 0 0;
+  & .line {
+    width: 7vw;
+    margin: 0 auto;
+    padding: 13vw 0 0;
   }
 }
 
