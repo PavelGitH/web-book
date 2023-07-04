@@ -245,6 +245,10 @@ p {
     text-align: center;
     vertical-align: bottom;
   }
+
+  & .zeroTextIndent {
+    text-indent: 0;
+  }
 }
 
 .page9 {}
