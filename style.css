@@ -237,13 +237,12 @@ p {
   & .right {
     width: 14vw;
     padding-left: 1vw;
-    vertical-align: top;
+    vertical-align: bottom;
     text-indent: -1vw;
   }
 
   .center {
     text-align: center;
-    vertical-align: bottom;
   }
 
   & .zeroTextIndent {
@@ -251,7 +250,29 @@ p {
   }
 }
 
-.page9 {}
+.page9 {
+  & .left {
+    width: 17vw;
+    padding-right: 1vw;
+    text-indent: -1vw;
+    vertical-align: top;
+  }
+
+  & .right {
+    width: 14vw;
+    padding-left: 1vw;
+    vertical-align: bottom;
+    text-indent: -1vw;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  & .zeroTextIndent {
+    text-indent: 0;
+  }
+}
 
 .page10 {}
 
