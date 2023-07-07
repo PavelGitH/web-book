@@ -91,9 +91,14 @@ h4 {
   line-height: 1.5;
 }
 
+h5 {
+  font-size: 1.35vw;
+}
+
 h1,
 h2,
-h4 {
+h4,
+h5 {
   text-align: center;
 }
 
@@ -302,7 +307,13 @@ p {
 
 .page12 {}
 
-.page13 {}
+.page13 {
+  .picture2 {
+    width: 29.2vw;
+    height: 17.5vw;
+    margin: 0 auto;
+  }
+}
 
 .page14 {}
 
