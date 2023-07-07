@@ -335,11 +335,19 @@ p {
   }
 
   .h5-14 {
-    margin-bottom: 1vw;
+    margin: 1vw 0;
   }
 }
 
-.page15 {}
+.page15 {
+  & .zeroTextIndent {
+    text-indent: 0;
+  }
+
+  .h4-15 {
+    margin-top: 1vw;
+  }
+}
 
 .page16 {}
 
