@@ -307,10 +307,12 @@ p {
 
 .page12 {
   display: flex;
+
   .picture1 {
     width: 21.5vw;
     height: 45.5vw;
   }
+
   .figure-caption-1 {
     writing-mode: vertical-rl;
     transform: scale(-1);
@@ -325,7 +327,17 @@ p {
   }
 }
 
-.page14 {}
+.page14 {
+  .picture3 {
+    width: 29.2vw;
+    height: 20.3vw;
+    margin: 0 auto;
+  }
+
+  .h5-14 {
+    margin-bottom: 1vw;
+  }
+}
 
 .page15 {}
 
