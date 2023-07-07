@@ -305,7 +305,17 @@ p {
 
 .page11 {}
 
-.page12 {}
+.page12 {
+  display: flex;
+  .picture1 {
+    width: 21.5vw;
+    height: 45.5vw;
+  }
+  .figure-caption-1 {
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+  }
+}
 
 .page13 {
   .picture2 {
