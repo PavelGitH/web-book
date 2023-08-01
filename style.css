@@ -323,7 +323,10 @@ p {
   .picture2 {
     width: 29.2vw;
     height: 17.5vw;
-    margin: 0 auto;
+    margin: 15px auto;
+    background-image: url("./images/picture2.png");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
   }
 }
 
