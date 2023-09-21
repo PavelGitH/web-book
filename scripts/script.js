@@ -1,7 +1,7 @@
 const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
 let pages = document.querySelectorAll(".page");
-let activePageArr = [16, 17];
+let activePageArr = [28, 29];
 let width700 = window.matchMedia("(max-width: 700px)");
 
 function pagesDisplayNone() {
@@ -30,7 +30,6 @@ function nextPush() {
   if (activePageArr.length === 1) {
     activePageArr[0] += 1;
     document.getElementById(activePageArr[0]).classList.remove("displayNone");
-    console.log(999999);
   }
   if (activePageArr.length === 2) {
     activePageArr[0] += 2;
