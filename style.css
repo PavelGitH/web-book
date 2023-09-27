@@ -95,6 +95,13 @@ h5 {
   font-size: 1.35vw;
 }
 
+h6 {
+  font-size: 1.1vw;
+  text-align: right;
+  margin-top: 3vw;
+  margin-bottom: 0.5vw;
+}
+
 h1,
 h2,
 h4,
@@ -124,14 +131,50 @@ p {
 }
 
 .table {
+  width: 100%;
   font-size: 1.25vw;
-  word-spacing: 0.4vw;
-  line-height: 0.9;
-  padding-left: 1vw;
+  border-collapse: collapse;
+  margin-bottom: 1vw;
 }
 
 .td {
-  padding: 0;
+  text-align: center;
+  border: 0.1vw solid transparent;
+}
+
+.padding-top {
+  padding-top: 0.5vw;
+}
+
+.border-full {
+  border: 0.1vw solid black;
+}
+
+.border-right {
+  border-right: 0.1vw solid black;
+}
+
+.border-right-left {
+  border-right: 0.1vw solid black;
+  border-left: 0.1vw solid black;
+}
+
+.border-top-right-bottom {
+  border-top: 0.1vw solid black;
+  border-right: 0.1vw solid black;
+  border-bottom: 0.1vw solid black;
+}
+
+.border-top-bottom-left {
+  border-top: 0.1vw solid black;
+  border-bottom: 0.1vw solid black;
+  border-left: 0.1vw solid black;
+}
+
+.border-top-right-bottom {
+  border-top: 0.1vw solid black;
+  border-right: 0.1vw solid black;
+  border-bottom: 0.1vw solid black;
 }
 
 .page0 {
@@ -303,8 +346,6 @@ p {
   }
 }
 
-.page11 {}
-
 .page12 {
   display: flex;
 
@@ -351,134 +392,6 @@ p {
     margin-top: 1vw;
   }
 }
-
-.page16 {}
-
-.page17 {}
-
-.page18 {}
-
-.page19 {}
-
-.page20 {}
-
-.page21 {}
-
-.page22 {}
-
-.page23 {}
-
-.page24 {}
-
-.page25 {}
-
-.page26 {}
-
-.page27 {}
-
-.page28 {}
-
-.page29 {}
-
-.page30 {}
-
-.page31 {}
-
-.page32 {}
-
-.page33 {}
-
-.page34 {}
-
-.page35 {}
-
-.page36 {}
-
-.page37 {}
-
-.page38 {}
-
-.page39 {}
-
-.page40 {}
-
-.page41 {}
-
-.page42 {}
-
-.page43 {}
-
-.page44 {}
-
-.page45 {}
-
-.page46 {}
-
-.page47 {}
-
-.page48 {}
-
-.page49 {}
-
-.page50 {}
-
-.page51 {}
-
-.page52 {}
-
-.page53 {}
-
-.page54 {}
-
-.page55 {}
-
-.page56 {}
-
-.page57 {}
-
-.page58 {}
-
-.page59 {}
-
-.page60 {}
-
-.page61 {}
-
-.page62 {}
-
-.page63 {}
-
-.page64 {}
-
-.page65 {}
-
-.page66 {}
-
-.page67 {}
-
-.page68 {}
-
-.page69 {}
-
-.page70 {}
-
-.page71 {}
-
-.page72 {}
-
-.page73 {}
-
-.page74 {}
-
-.page75 {}
-
-.page76 {}
-
-.page77 {}
-
-.page78 {}
-
-.page79 {}
 
 .displayNone {
   display: none;
