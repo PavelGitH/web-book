@@ -189,6 +189,11 @@ p {
   border-bottom: 0.1vw solid black;
 }
 
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: scale(-1);
+}
+
 .page0 {
   display: none;
 }
