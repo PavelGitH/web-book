@@ -78,6 +78,7 @@
   border-radius: 10px;
   box-shadow: 0 0 5px 0 #efead4;
   position: relative;
+  user-select: none
 }
 
 h1 {
@@ -95,6 +96,7 @@ h4 {
 
 h5 {
   font-size: 1.35vw;
+  margin: 1vw 0;
 }
 
 h6 {
@@ -160,12 +162,6 @@ p {
   padding: 0;
 }
 
-.td-text-align-left {
-  text-align: left;
-  padding-left: 0.2vw;
-  text-indent: 1.1vw;
-}
-
 .border-full {
   border: 0.1vw solid black;
 }
@@ -219,6 +215,11 @@ p {
 
 .textIndentMinus {
   text-indent: 1vw;
+}
+
+.text-align-left {
+  padding-left: 0.5vw;
+  text-align: left;
 }
 
 .center {
@@ -309,7 +310,6 @@ p {
     margin: 15px auto;
     background-image: url("./images/picture2.png");
     background-size: contain;
-    /* background-repeat: no-repeat; */
   }
 }
 
@@ -318,20 +318,6 @@ p {
     width: 29.2vw;
     height: 20.3vw;
     margin: 0 auto;
-  }
-
-  .h5-14 {
-    margin: 1vw 0;
-  }
-}
-
-.page15 {
-  & .zeroTextIndent {
-    text-indent: 0;
-  }
-
-  .h4-15 {
-    margin-top: 1vw;
   }
 }
 
