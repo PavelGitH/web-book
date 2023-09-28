@@ -88,7 +88,7 @@ h1 {
 
 h4 {
   font-size: 1.45vw;
-  line-height: 1.5;
+  line-height: 1;
   margin-top: 2vw;
   margin-bottom: 1.5vw;
 }
@@ -104,8 +104,16 @@ h6 {
   margin-bottom: 0.5vw;
 }
 
-.h6-margin-top {
+.margin-top {
   margin-top: 0;
+}
+
+.margin-bottom-1vw {
+  margin-bottom: 1vw;
+}
+
+.padding-top {
+  padding-top: 0.5vw;
 }
 
 h1,
@@ -120,6 +128,10 @@ p {
   text-indent: 1.5vw;
   word-spacing: 0.4vw;
   line-height: 0.9;
+}
+
+.p-margin-bottom {
+  margin-bottom: 0.5vw;
 }
 
 .numberPageUneven {
@@ -138,24 +150,20 @@ p {
 
 .table {
   width: 100%;
-  font-size: 1.25vw;
+  font-size: 1.22vw;
   border-collapse: collapse;
-  margin-bottom: 1vw;
 }
 
 .td {
   text-align: center;
   border: 0.1vw solid transparent;
+  padding: 0;
 }
 
 .td-text-align-left {
   text-align: left;
   padding-left: 0.2vw;
   text-indent: 1.1vw;
-}
-
-.padding-top {
-  padding-top: 0.5vw;
 }
 
 .border-full {
@@ -192,6 +200,29 @@ p {
 .vertical-text {
   writing-mode: vertical-rl;
   transform: scale(-1);
+}
+
+.left {
+  width: 17vw;
+  text-align: left;
+  vertical-align: top;
+  border: none;
+  line-height: 0.95;
+}
+
+.right {
+  width: 14vw;
+  text-align: left;
+  border: none;
+  line-height: 0.95;
+}
+
+.textIndentMinus {
+  text-indent: 1vw;
+}
+
+.center {
+  text-align: center;
 }
 
 .page0 {
@@ -240,126 +271,20 @@ p {
 }
 
 .page5 {
-  padding-top: 9vw;
-
-  & p {
-    padding: 1vw 0 0;
-  }
+  padding-top: 7vw;
 
   & .line {
     width: 7vw;
     margin: 0 auto;
-    padding: 13vw 0 0;
+    padding: 14vw 0 0;
   }
 }
 
 .page6 {
-  padding-top: 9vw;
-
-  & .p {
-    padding: 0.7vw 0 0;
-  }
+  padding-top: 7vw;
 
   & .list {
     padding: 0.4vw 0 0;
-  }
-}
-
-.page7 {
-  & .left {
-    width: 17vw;
-    text-indent: -1vw;
-    vertical-align: top;
-  }
-
-  & .right {
-    width: 14vw;
-    text-align: right;
-    vertical-align: bottom;
-  }
-
-  .rightPadding {
-    padding-right: 8vw;
-  }
-
-  & .zeroTextIndent {
-    text-indent: 0;
-  }
-
-  .center {
-    text-align: center;
-  }
-}
-
-.page8 {
-  & .left {
-    width: 17vw;
-    padding-right: 1vw;
-    text-indent: -1vw;
-    vertical-align: top;
-  }
-
-  & .right {
-    width: 14vw;
-    padding-left: 1vw;
-    vertical-align: bottom;
-    text-indent: -1vw;
-  }
-
-  .center {
-    text-align: center;
-  }
-
-  & .zeroTextIndent {
-    text-indent: 0;
-  }
-}
-
-.page9 {
-  & .left {
-    width: 17vw;
-    padding-right: 1vw;
-    text-indent: -1vw;
-    vertical-align: top;
-  }
-
-  & .right {
-    width: 14vw;
-    padding-left: 1vw;
-    vertical-align: bottom;
-    text-indent: -1vw;
-  }
-
-  .center {
-    text-align: center;
-  }
-
-  & .zeroTextIndent {
-    text-indent: 0;
-  }
-}
-
-.page10 {
-  & .left {
-    width: 18vw;
-    padding-right: 1vw;
-    text-indent: -1vw;
-    vertical-align: top;
-  }
-
-  & .right {
-    width: 13vw;
-    padding-left: 1vw;
-    vertical-align: bottom;
-    text-indent: -1vw;
-  }
-
-  .center {
-    text-align: center;
-  }
-
-  & .zeroTextIndent {
-    text-indent: 0;
   }
 }
 
