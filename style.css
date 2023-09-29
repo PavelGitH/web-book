@@ -175,6 +175,12 @@ p {
   border-left: 0.1vw solid black;
 }
 
+.border-right-bottom-left {
+  border-right: 0.1vw solid black;
+  border-bottom: 0.1vw solid black;
+  border-left: 0.1vw solid black;
+}
+
 .border-top-right-bottom {
   border-top: 0.1vw solid black;
   border-right: 0.1vw solid black;
@@ -187,8 +193,18 @@ p {
   border-left: 0.1vw solid black;
 }
 
+.border-bottom-left {
+  border-bottom: 0.1vw solid black;
+  border-left: 0.1vw solid black;
+}
+
 .border-top-right-bottom {
   border-top: 0.1vw solid black;
+  border-right: 0.1vw solid black;
+  border-bottom: 0.1vw solid black;
+}
+
+.border-right-bottom {
   border-right: 0.1vw solid black;
   border-bottom: 0.1vw solid black;
 }
