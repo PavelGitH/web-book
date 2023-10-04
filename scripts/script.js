@@ -1,7 +1,7 @@
 const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
 let pages = document.querySelectorAll(".page");
-let activePageArr = [38, 39];
+let activePageArr = [44, 45];
 let width700 = window.matchMedia("(max-width: 700px)");
 
 function pagesDisplayNone() {
